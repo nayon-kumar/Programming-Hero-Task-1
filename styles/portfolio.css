@@ -1,7 +1,7 @@
 header {
   background: url(../images/developer.png), url(../images/header_bg.png),
     #fff8f3;
-  background-position: top left, right bottom;
+  background-position: 38px 23px, right bottom;
   background-repeat: no-repeat;
 }
 .logo h2 {
