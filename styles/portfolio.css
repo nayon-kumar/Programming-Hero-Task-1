@@ -145,3 +145,104 @@ a {
   color: #757575;
   line-height: 28px;
 }
+
+/* Resume design started from here */
+#resume {
+  margin-top: 130px;
+}
+.resumeContainer {
+  max-width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.resumeBody {
+  display: flex;
+  gap: 24px;
+}
+.eduHead,
+.expHead {
+  margin-top: 113px;
+  margin-bottom: 113px;
+  font-size: 30px;
+}
+
+.educard h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.educard h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+}
+
+.educard p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #757575;
+  max-width: 511px;
+}
+
+.educard hr {
+  margin-bottom: 30px;
+}
+.resumeContainer .btnDiv {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Footer designed started from here */
+footer {
+  background-color: #fff8f3;
+  margin-top: 113px;
+  padding: 130px 230px;
+}
+.footerContainer {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.socialArea h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.socialArea p {
+  font-size: 16px;
+  color: #474747;
+  line-height: 28px;
+  max-width: 562px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.socialArea img {
+  max-width: 24px;
+  margin-right: 24px;
+}
+
+.formArea input {
+  display: block;
+  width: 461px;
+  height: 64px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formArea h2 {
+  font-size: 35px;
+  margin-bottom: 28px;
+}
+
+.formArea textarea {
+  display: block;
+  padding: 18px 30px;
+  width: 461px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
