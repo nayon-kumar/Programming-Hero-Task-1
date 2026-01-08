@@ -3,7 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 a {
   text-decoration: none;
 }
@@ -16,11 +19,16 @@ ul {
   font-optical-sizing: auto;
 }
 .btn {
-  height: 65px;
+  height: 64px;
   width: 150px;
   border: none;
   border-radius: 5px;
   background-color: #fd6e0a;
   color: white;
   cursor: pointer;
+}
+
+.sectionHeading {
+  max-width: 827px;
+  text-align: center;
 }
