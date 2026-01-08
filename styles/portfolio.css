@@ -9,7 +9,7 @@ header {
   cursor: pointer;
 }
 nav {
-  width: 54%;
+  width: 71%;
   margin: 0 auto;
   padding-top: 51px;
   display: flex;
@@ -92,6 +92,7 @@ a {
 }
 .aboutInfo {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   text-align: center;
 }
@@ -105,4 +106,42 @@ a {
   font-size: 20px;
   font-weight: bold;
   line-height: 30px;
+}
+
+/* Skills designed started from here */
+#skills {
+  padding-top: 100px;
+}
+.skillContainer {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 24px;
+  padding-top: 20px;
+}
+.card {
+  max-width: 267px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0 #d0cece;
+}
+.card img {
+  max-width: 44px;
+}
+.card h4 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: #181818;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
 }
