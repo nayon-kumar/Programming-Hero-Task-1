@@ -1,0 +1,40 @@
+@media screen and (max-width: 480px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+  .skillContainer {
+    width: 95%;
+  }
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+  .sectionHeading h3 {
+    font-size: 25px;
+  }
+  .sectionHeading p {
+    font-size: 16px;
+  }
+  .resumeBody {
+    flex-direction: column;
+  }
+  .eduHead,
+  .expHead {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .educard h3,
+  .educard h4 {
+    font-size: 18px;
+  }
+  .eduHead h4 {
+    margin-left: 10px;
+  }
+  .expHead h4 {
+    margin-left: 10px;
+  }
+  .educard {
+    margin: 0px 10px;
+  }
+}
