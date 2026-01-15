@@ -1,4 +1,152 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
+  .leftArea h2 {
+    font-size: 35px;
+  }
+  .leftArea h1 {
+    font-size: 50px;
+  }
+  .leftArea button {
+    margin-bottom: 25px;
+  }
+  #about .aboutContainer {
+    width: 85%;
+    padding: 50px 20px;
+  }
+  #about {
+    padding-top: 70px;
+  }
+  #skills {
+    padding-top: 70px;
+  }
+  .cardContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #resume {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .eduHead,
+  .expHead {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  footer {
+    margin-top: 50px;
+    padding: 50px 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header {
+    background: url(../images/header_bg.png), #fff8f3;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .leftArea h2 {
+    font-size: 30px;
+  }
+  .leftArea h1 {
+    font-size: 40px;
+  }
+  .rightArea img {
+    width: 100%;
+  }
+  nav {
+    width: 85%;
+  }
+  .btn {
+    height: 40px;
+  }
+  .bannerArea {
+    margin: 46px 40px 0px 40px;
+  }
+  .sectionHeading h3 {
+    font-size: 30px;
+  }
+  .aboutInfo h4 {
+    font-size: 18px;
+  }
+  .skillContainer {
+    width: 85%;
+  }
+  .cardContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #skills {
+    padding-top: 50px;
+  }
+  .eduHead,
+  .expHead {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+  .educard h3,
+  .educard h4 {
+    font-size: 20px;
+  }
+  #resume {
+    margin-top: 70px;
+  }
+  .socialArea h2,
+  .formArea h2 {
+    font-size: 30px;
+  }
+  .formArea input {
+    width: 350px;
+    height: 40px;
+  }
+  .formArea textarea {
+    width: 350px;
+  }
+  footer {
+    margin-top: 50px;
+    padding: 50px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .resumeBody {
+    flex-direction: column;
+  }
+  .rightArea img {
+    margin-top: 58px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .formArea input {
+    width: 300px;
+  }
+  .formArea textarea {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .cardContainer {
+    gap: 10px;
+  }
+  .card {
+    max-width: 240px;
+  }
+  .formArea input {
+    width: 250px;
+  }
+  .formArea textarea {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .leftArea button {
+    display: block;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .cardContainer {
     flex-direction: column;
   }
@@ -121,6 +269,7 @@
   }
   .leftArea button {
     margin-bottom: 20px;
+    display: inline;
   }
   #about {
     padding-top: 50px;
