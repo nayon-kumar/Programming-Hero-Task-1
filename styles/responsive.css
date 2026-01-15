@@ -54,4 +54,14 @@
     padding: 18px 30px;
     font-size: 16px;
   }
+  .aboutInfo {
+    flex-direction: column;
+  }
+  #about .aboutContainer {
+    width: 95%;
+    padding: 50px 10px;
+  }
+  .aboutInfo h4 {
+    font-size: 18px;
+  }
 }
