@@ -38,7 +38,10 @@
     margin: 0px 15px;
   }
   .footerContainer {
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .formArea form {
+    text-align: center;
   }
   footer {
     margin-top: 50px;
