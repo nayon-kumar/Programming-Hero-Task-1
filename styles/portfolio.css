@@ -127,7 +127,11 @@ a {
   max-width: 267px;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 6px 50px 0 #d0cece;
+  box-shadow: 0 5px 10px 0 #d0cece;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 6px 30px 0 #d0cece;
 }
 .card img {
   max-width: 44px;

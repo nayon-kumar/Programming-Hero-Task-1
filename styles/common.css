@@ -26,14 +26,14 @@ ul {
   background-color: #fd6e0a;
   color: white;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
-
+.btn:hover {
+  background-color: #3498db;
+  box-shadow: 0 6px 20px rgba(223, 219, 216, 0.4);
+}
 .sectionHeading {
   max-width: 827px;
   text-align: center;
   margin: 0 auto;
-}
-
-.hide {
-  display: none !important;
 }
