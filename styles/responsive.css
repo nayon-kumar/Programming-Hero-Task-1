@@ -85,7 +85,12 @@
   }
   .bannerArea {
     flex-direction: column;
-    margin: 46px 15px 0px 15px;
+    margin: 46px 0px 0px 0px;
+    margin-top: 46px;
+  }
+  .leftArea p {
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .rightArea img {
     width: 100%;
