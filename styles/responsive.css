@@ -54,6 +54,9 @@
     padding: 18px 30px;
     font-size: 16px;
   }
+  .formArea textarea {
+    width: 100%;
+  }
   .aboutInfo {
     flex-direction: column;
   }
@@ -63,5 +66,52 @@
   }
   .aboutInfo h4 {
     font-size: 18px;
+  }
+  #skills {
+    padding-top: 50px;
+  }
+  nav {
+    flex-direction: column;
+    width: 95%;
+  }
+  ul {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+  }
+  .btn {
+    height: 35px;
+    width: 150px;
+  }
+  .bannerArea {
+    flex-direction: column;
+    margin: 46px 10px 0px 10px;
+  }
+  .rightArea img {
+    width: 100%;
+  }
+  .rightArea {
+    background: url(../images/header_bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  header {
+    background: #fff8f3;
+    background-position: 38px 23px, right bottom;
+    background-repeat: no-repeat;
+  }
+  .leftArea h1 {
+    font-size: 25px;
+  }
+  .leftArea h2 {
+    font-size: 18px;
+  }
+  .leftArea {
+    text-align: center;
+  }
+  .leftArea button {
+    margin-bottom: 20px;
   }
 }
